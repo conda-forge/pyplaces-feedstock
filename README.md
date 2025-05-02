@@ -3,11 +3,11 @@ About pyplaces-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyplaces-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/tbanken/pyplaces
+Home: https://pyplaces.readthedocs.io/en/latest/
 
 Package license: MIT
 
-Summary: Pyplaces is a Python package that allows you to easily read places and other open source spatial data from a known address, place, or just a bounding box.
+Summary: pyplaces is a package used to easily read places data in remote storage from an address, place or bounding box.
 
 Development: https://github.com/tbanken/pyplaces
 
