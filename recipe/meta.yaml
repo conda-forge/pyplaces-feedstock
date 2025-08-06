@@ -1,5 +1,5 @@
 {% set name = "pyplaces" %}
-{% set version = "0.4.3" %}
+{% set version = "0.4.4" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pyplaces-{{ version }}.tar.gz
-  sha256: 59ceb1639bc633b523fbb419b06243a8d7486e0f50ee83de6294e4f5db27cc71
+  sha256: 437b1315384162423fa9908cbcb8594b29ec5f2b1ae440aaa724db4c6eb079d5
 
 build:
   noarch: python
@@ -29,6 +29,7 @@ requirements:
     - osmnx >=2.0.2,<3
     - typing_extensions
     - sentence-transformers <=4.1.0
+    - pyarrow <=20.0.0
     - ipywidgets
     - python-duckdb
 
