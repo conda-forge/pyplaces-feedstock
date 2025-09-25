@@ -1,5 +1,5 @@
 {% set name = "pyplaces" %}
-{% set version = "0.4.4" %}
+{% set version = "0.4.5" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pyplaces-{{ version }}.tar.gz
-  sha256: 437b1315384162423fa9908cbcb8594b29ec5f2b1ae440aaa724db4c6eb079d5
+  sha256: b00b8cb76d72748e418109011565eee13d78ec14b191f5c335992320e1062cc7
 
 build:
   noarch: python
